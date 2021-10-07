@@ -37,8 +37,10 @@ Therefore, the time complexity for `findPairs` function should be:
 `TCfP = O(1) + O(n) + O(1)` ☝ but, remember **BIG O notation** help us to determine the worst escenario. So constants values are usually ignored when a order of growth `O(1) < O(log n) < O(n)`. 
 
 So, removing **C**onstants because of lower complexity.
-`TCfP = ❌ O(1) + ✅ O(n) + ❌ O(1)`
-`TCfP = O(n)`
+- `TCfP = ❌ O(1) + ✅ O(n) + ❌ O(1)`
+- `TCfP = O(n)`
+
+Therefore, the `O(n)`  is a **linear time complexity**, and that could be improve to `O(log n)` **logartimic time complexity** e.g binary search algo, which requires and ordered list to provide efficient solution.
 
 Finally this function is called by `src/App.js` at line 31.
 
