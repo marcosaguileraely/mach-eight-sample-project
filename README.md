@@ -34,11 +34,13 @@ Javascript array method ❗`[array].filter()` is a iterative method  which **ret
 Therefore, the time complexity for `findPairs` function should be:
 **TC** = Time complexity
 **fp**  = findPairs
-`TCfP = O(1) + O(n) + O(1)` ☝ but, remember **BIG O notation** help us to determine the worst escenario. So constants values are usually ignored when a order of growth `O(1) < O(log n) < O(n)`. 
+`TCfP = O(1) + O(n) + O(1)` ☝ but, remember **BIG O notation** help us to determine the worst escenario. So constants values are usually ignored when a order of growth follows the next **order** `O(1) < O(log n) < O(n) < O(n^2)`.  
 
 So, removing **C**onstants because of lower complexity.
 - `TCfP = ❌ O(1) + ✅ O(n) + ❌ O(1)`
 - `TCfP = O(n)`
+
+In this case, the **O notation** `O(n)` is faster than `O(n^2)` ✅.
 
 Therefore, the `O(n)`  is a **linear time complexity**, and that could be improve to `O(log n)` **logartimic time complexity** e.g binary search algo, which requires and ordered list to provide efficient solution.
 
