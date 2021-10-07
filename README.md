@@ -56,7 +56,7 @@ I've created a simple and fancy User interface in order to interact with the dat
 ![NBA Players App created in Reactjs](https://i.ibb.co/tmwnMNN/Screen-Shot-2021-10-07-at-2-42-15-PM.png)
 Link to project and live demo: [mach-eight-flight-test LIVE DEMO](https://mach-eight-flight-test.herokuapp.com/)
 
-# Taste this is app
+# Taste this app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 1. Intall Reactjs visiting the above link.
