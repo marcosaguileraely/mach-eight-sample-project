@@ -9,7 +9,7 @@ function App() {
 
   const [valueInch, setValueInch] = useState(0)
   const [count, setCount]         = useState(0)
-  const [message, setMessage]     = useState("No basketball players found.")
+  const [message, setMessage]     = useState("No 🏀 NBA players found.")
   const [players, setPlayer]      = useState([])
   const [playersFound, setPlayerFound] = useState([])
 
